@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    <title>Shopper</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="#">NeoVais</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#desc">Купить</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shoppers">Шопперы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>    
+          </ul>
+        </div>  
+      </nav>
+      <section class="hero">
+          <div class="about">
+              <div class="text p-4">
+                <p>
+                    <h2>NeoVais - магазин самых качественных<br>шопперов в России!</h1>
+                </p>
+              </div>
+          </div>
+          <div class="container carousel">
+            <img src="images/carousel/IMG_20210730_095800_564.gif" alt="">
+          </div>
+          <!-- /.container -->
+          <div id="desc" class="description mt-4 p-4">
+              <div class="container d-flex">
+                <div class="des-item cotton">
+                    <img src="https://img.icons8.com/ios/50/000000/cotton.png"/><br>
+                    <small>100% хлопок</small>
+                </div>
+                <!-- /.order -->
+                <div class="des-item order ml-auto">
+                    <img src="https://img.icons8.com/ios/50/000000/create-order--v1.png"/><br>
+                    <small>Шопперы на заказ</small>
+                </div>
+                <!-- /.cotton -->
+                <div class="des-item painter ml-auto">
+                    <img src="https://img.icons8.com/ios/50/000000/drawing--v2.png"/><br>
+                    <small>У нас есть художник</small>
+                </div>
+                <!-- /.painter -->
+                <div class="des-item ml-auto">
+                    <img src="https://img.icons8.com/ios/50/000000/document-delivery.png"/><br>
+                    <small>Доставка по всей Росии</small>
+                </div>
+                <!-- /.delivery -->
+              </div>
+              <div class="buy m-4">
+                <button data-toggle="collapse" data-target="#demo" type="button" class="btn btn-outline-dark btn-lg">Купить</button>
+                <div id="demo" class="collapse mt-3">
+                  <form action="/action_page.php">
+                    <div class="form-group">
+                      <label for="email">Email address:</label>
+                      <input type="email" class="form-control" placeholder="Enter email" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">Name:</label>
+                      <input type="name" class="form-control" placeholder="Enter name" id="pwd">
+                    </div>
+                    <button type="button" class="btn btn-outline-dark">Submit</button>
+                  </form>
+                </div>
+              </div>
+          </div>
+          <!-- /.descripton -->
+          <div id="shoppers" class="container shoppers p-4">
+            <h1>Наши шопперы</h1>
+            <div class="d-flex pt-4">
+              <div class="p-2">
+                <img class="shopper-item" src="images/range/DSC_0607.JPG" alt="">
+              </div>
+              <div class="ml-auto p-2">
+                <img class="shopper-item" src="images/range/DSC_0619.JPG" alt="">
+              </div>
+              <div class="ml-auto p-2">
+                <img class="shopper-item" src="images/range/DSC_0643.JPG" alt="">
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-2">
+                <img class="shopper-item" src="images/range/DSC_0701.JPG" alt="">
+              </div>
+              <div class="ml-auto p-2">
+                <img class="shopper-item" src="images/range/DSC_0722.JPG" alt="">
+              </div>
+              <div class="ml-auto p-2">
+                <img class="shopper-item" src="images/range/DSC_0759.JPG" alt="">
+              </div>
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.shoppers -->
+      </section>
+</body>
+</html>
